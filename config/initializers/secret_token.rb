@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-CommunityshareWeb::Application.config.secret_key_base = 'f2452d0f89c550ac60b4669c26ec08f2d66251563bc31b15f913cf689f8f353f37b3812c018acf5eab9f40d49354a886635c5b83144d5d16cac673ee918fa98e'
+CommunityshareWeb::Application.config.secret_key_base = '8c2b35c700b21dff646ff7618c641ee11fb3f80e9eeac59999951443290d82742747e57c96f91d57ac4a1c9b34d6516d30c9b730aab8e598dc16d214acc0fc4e'
