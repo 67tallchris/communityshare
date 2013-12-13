@@ -11,13 +11,6 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
-    <main role="main">
-       <%= render 'layouts/messages' %>
-       <%= yield %>
-    </main>
     <%= javascript_include_tag "bootstrap", "data-turbolinks-track" => true %>
   </body>
 </html>
