@@ -5,7 +5,7 @@
     <title><%= content_for?(:title) ? yield(:title) : "Communityshare Web" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Communityshare Web" %>">
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
-    <%= stylesheet_link_tag "carousel", media: "all", "data-turbolinks-track" => true %>
+    <link href="/assets/carousel.css" rel="stylesheet">
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
   </head>
