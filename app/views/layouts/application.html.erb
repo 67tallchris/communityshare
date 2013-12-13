@@ -11,6 +11,10 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    <main role="main">
+       <%= render 'layouts/messages' %>
+       <%= yield %>
+    </main>
     <%= javascript_include_tag "bootstrap", "data-turbolinks-track" => true %>
   </body>
 </html>
